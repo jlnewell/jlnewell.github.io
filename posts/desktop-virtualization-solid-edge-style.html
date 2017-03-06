@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>JasonNewell.NET - Desktop Virtualization, Solid Edge style</title>
+        <meta name="description" content="Jason Newell" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="JasonNewell.NET" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="JasonNewell.NET" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="JasonNewell.NET" />
+        <meta name="msapplication-tooltip" content="JasonNewell.NET" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="JasonNewell.NET - Desktop Virtualization, Solid Edge style" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jasonnewell.com/posts/desktop-virtualization-solid-edge-style" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">JasonNewell.NET</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                        <li><a href="/about">About Me</a></li>
+        <li><a href="/tags">All Tags</a></li>
+        <li><a href="/posts">Archive</a></li>
+ 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header" style="background-image: url(&quot;/images/background-1920x1080.png&quot;)">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Desktop Virtualization, Solid Edge style</h1>
+    <div class="meta">        
+Published on Saturday, April 23, 2011<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/solid-edge" class="btn btn-default btn-xs">Solid Edge</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<p><strong>Let me start by asking a question or two.  How often have you wished that you could test a new release of Solid Edge or maintenance pack without risking your production machine?  How about after installing a maintenance pack, a particular function &quot;seems&quot; different but you can't quite remember how it worked in a previous release.  Typically it is not practical or cost effective to have a second machine sitting at your desk collecting dust until you need it for the previously mentioned scenarios.  What if there was a way to test ALL versions of Solid Edge and ALL maintenance packs without needing a second physical machine?</strong></p>
+<p>I don't typically bother putting time into recommending products very often but <a href="http://www.vmware.com/products/workstation/">VMWare Workstation</a> is absolutely fantastic.  Coming in at just $189, it is a no brainer for people like me who absolutely need to be able to run and test multiple versions of other software.</p>
+<p>The single coolest and most useful feature is Snapshot Manager.  Snapshot Manager is what allows you to install, run and test multiple versions of basically any software.  In my case, I do consulting for a broad range of Solid Edge customers who run almost every version of Solid Edge imaginable.  I am also contracted by Siemens to develop the Solid Edge SDK Help each year for the upcoming release, ST4 in this case. As you can see in the screenshot below, I can easily transition between versions of Solid Edge with a simple click.</p>
+<p> <img src="http://blob.jasonnewell.net/blog/2011-04-23_1.png" class="img-fluid" alt="" title="VMWare Workstation Snapshot Manager" /></p>
+<p>Here is what it looks like to run Solid Edge inside of VMWare Workstation.  The left pane displays all of my configured virtual machines.  The tabs show the virtual machines that are running.  You can also enter into full-screen mode and work seamlessly as if it was your physical machine.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-04-23_2.png" class="img-fluid" alt="" title="VMWare Workstation virtual machine running Solid Edge" /></p>
+<p>Don't be jeallous but don't you wish <img src="http://blob.jasonnewell.net/blog/2011-04-23_3.png" class="img-fluid" alt="" />.</p>
+
+
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="ui center aligned container">
+  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  
+  <div class="ui basic vertical segment">
+    <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
+  <i class="fa fa-twitter fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://github.com/jlnewell" title="GitHub">
+  <i class="fa fa-github fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://www.youtube.com/jasonnewelldotnet" title="YouTube">
+  <i class="fa fa-youtube fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://www.linkedin.com/in/jasonnewell" title="LinkedIn">
+  <i class="fa fa-linkedin fa-fw fa-2x"></i>
+</a>
+  </div>
+  
+  <p class="ui tiny basic vertical segment">
+    <a href="https://wyam.io">Statically generated by Wyam</a>
+  </p>
+</div>
+                </footer> 
+
+                
+                <script>hljs.initHighlightingOnLoad();</script>
+
+        </body>
+</html>
+
