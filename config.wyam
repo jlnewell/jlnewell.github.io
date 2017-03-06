@@ -1,0 +1,9 @@
+#recipe Blog
+#n Wyam.Markdown
+#t CleanBlog
+
+Settings[BlogKeys.Title] = "JasonNewell.NET";
+Settings[Keys.Host] = "jasonnewell.com";
+Settings[BlogKeys.Description] = "Jason Newell";
+Settings[Keys.LinksUseHttps] = true;
+Settings[BlogKeys.Intro] = "Hi, my name is Jason Newell. I am an Applications Architect for Ditch Witch and an independent consultant for Siemens.";
