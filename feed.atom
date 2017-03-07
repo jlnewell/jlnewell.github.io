@@ -4,22 +4,23 @@
 	<id>https://jasonnewell.com/</id>
 	<title>JasonNewell.NET</title>
 	<rights>2017</rights>
-	<updated>2017-03-07T12:29:06Z</updated>
+	<updated>2017-03-07T17:11:57Z</updated>
+	<logo>https://jasonnewell.com/images/background-1920x1080.jpg</logo>
 	<subtitle>Jason Newell</subtitle>
 	<entry>
-		<link href="https://jasonnewell.com/posts/how-to-use-nuget-for-solid-edge-custom-development" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/how-to-use-nuget-for-solid-edge-custom-development</id>
+		<link href="https://jasonnewell.com/posts/2016/01/how-to-use-nuget-for-solid-edge-custom-development" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2016/01/how-to-use-nuget-for-solid-edge-custom-development</id>
 		<title>How to use NuGet for Solid Edge custom development</title>
-		<updated>2015-01-27T00:00:00Z</updated>
+		<updated>2016-01-27T00:00:00Z</updated>
 		<content>&lt;p&gt;The following video demonstrates how to use NuGet from Visual Studio for Solid Edge custom development. Specifically, it shows how to install and use the &lt;a href="https://www.nuget.org/packages/Interop.SolidEdge"&gt;Interop.SolidEdge NuGet package&lt;/a&gt; and the &lt;a href="https://www.nuget.org/packages/SolidEdge.Community"&gt;SolidEdge.Community NuGet package&lt;/a&gt;. The &lt;a href="https://www.nuget.org/packages/SolidEdge.Community.Reader"&gt;SolidEdge.Community.Reader NuGet package&lt;/a&gt; is mentioned but not used in the video. These NuGet packages are used frequently in the &lt;a href="https://github.com/SolidEdgeCommunity/Samples"&gt;Samples on GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe width="560" height="420" src="https://www.youtube.com/embed/Ji28nedYCCQ?color=white&amp;amp;theme=light"&gt;&lt;/iframe&gt;</content>
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/interview-with-jason-newell-solid-edge-developer-community-leader" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/interview-with-jason-newell-solid-edge-developer-community-leader</id>
+		<link href="https://jasonnewell.com/posts/2015/01/interview-with-jason-newell-solid-edge-developer-community-leader" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2015/01/interview-with-jason-newell-solid-edge-developer-community-leader</id>
 		<title>Interview with Jason Newell, Solid Edge Developer Community Leader</title>
 		<updated>2015-01-16T00:00:00Z</updated>
 		<content>&lt;p&gt;Siemens community manager, Matt Lombard, interviewed me last week. The interview was about a hour long phone conversation that he transcribed for the article. It was a lot of fun telling my story. Thanks to Matt &amp;amp; Siemens for taking the time to document my accomplishments.&lt;/p&gt;
@@ -28,9 +29,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-st7-addin-edgebar-cpp" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-st7-addin-edgebar-cpp</id>
+		<link href="https://jasonnewell.com/posts/2014/12/solid-edge-st7-addin-edgebar-cpp" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/12/solid-edge-st7-addin-edgebar-cpp</id>
 		<title>Solid Edge ST7 AddIn EdgeBar in C++</title>
 		<updated>2014-12-14T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2014-12-14_1.png" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -38,9 +39,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-st7-addin-cpp" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-st7-addin-cpp</id>
+		<link href="https://jasonnewell.com/posts/2014/12/solid-edge-st7-addin-cpp" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/12/solid-edge-st7-addin-cpp</id>
 		<title>Solid Edge ST7 AddIn in C++</title>
 		<updated>2014-12-01T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2014-12-01_1.png" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -56,9 +57,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-st7-addin-architecture-overview" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-st7-addin-architecture-overview</id>
+		<link href="https://jasonnewell.com/posts/2014/11/solid-edge-st7-addin-architecture-overview" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/11/solid-edge-st7-addin-architecture-overview</id>
 		<title>Solid Edge ST7 AddIn Architecture Overview</title>
 		<updated>2014-11-10T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2014-11-10_1.png" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -68,9 +69,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-community-templates-quick-start" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-community-templates-quick-start</id>
+		<link href="https://jasonnewell.com/posts/2014/09/solid-edge-community-templates-quick-start" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/09/solid-edge-community-templates-quick-start</id>
 		<title>Solid Edge Community Templates Quick Start</title>
 		<updated>2014-09-02T00:00:00Z</updated>
 		<content>&lt;p&gt;The following video demonstrates how to install and use the &lt;a href="https://github.com/SolidEdgeCommunity/Templates"&gt;Solid Edge Community Templates&lt;/a&gt; for Visual Studio. They are published to the &lt;a href="http://visualstudiogallery.msdn.microsoft.com/fd1878fc-6520-4eeb-95e5-1b8b27da875e"&gt;Visual Studio Gallery on MSDN&lt;/a&gt; and allow you to quickly create a new Solid Edge AddIn using C# or Visual Basic. For a more complete demo, you can download the latest &lt;a href="https://solidedgesamples.codeplex.com/"&gt;Samples for Solid Edge on CodePlex&lt;/a&gt;.&lt;/p&gt;
@@ -79,9 +80,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-community-open-source-initiative" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-community-open-source-initiative</id>
+		<link href="https://jasonnewell.com/posts/2014/08/solid-edge-community-open-source-initiative" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/08/solid-edge-community-open-source-initiative</id>
 		<title>Solid Edge Community Open Source Initiative</title>
 		<updated>2014-08-31T00:00:00Z</updated>
 		<content>&lt;p&gt;The following video is the official introduction to the Solid Edge Community Open Source Initiative. I spoke about this topic at Solid Edge University 2014. At that time, we were not quite ready to go live as we were still learning how to set everything up and a lot was in flux. As of today, I'm happy to announce that we're ready to move forward and share all of the hard work that has gone on in the project.&lt;/p&gt;
@@ -101,9 +102,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-automation-via-iis" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-automation-via-iis</id>
+		<link href="https://jasonnewell.com/posts/2014/07/solid-edge-automation-via-iis" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/07/solid-edge-automation-via-iis</id>
 		<title>Solid Edge Automation via IIS</title>
 		<updated>2014-07-10T00:00:00Z</updated>
 		<content>&lt;p&gt;Automating Solid Edge from a web application can be challenging. Many have tried, many have failed (including me). In the following video, I dive head first into the common issues and propose possible solutions.&lt;/p&gt;
@@ -112,9 +113,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/spy-for-solid-edge-introduction" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/spy-for-solid-edge-introduction</id>
+		<link href="https://jasonnewell.com/posts/2014/06/spy-for-solid-edge-introduction" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/06/spy-for-solid-edge-introduction</id>
 		<title>Spy for Solid Edge Introduction</title>
 		<updated>2014-06-23T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2014-06-23_1.png" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -126,9 +127,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/site-migrated-to-miniblog" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/site-migrated-to-miniblog</id>
+		<link href="https://jasonnewell.com/posts/2014/05/site-migrated-to-miniblog" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/05/site-migrated-to-miniblog</id>
 		<title>Site migrated to MiniBlog</title>
 		<updated>2014-05-27T00:00:00Z</updated>
 		<content>&lt;p&gt;Those who have followed me over the years likely notice that the site looks a bit different. I created this site in 2005 give the &lt;a href="http://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Community/ct-p/SolidEdgeDeveloperCommunity"&gt;Solid Edge Developer Community&lt;/a&gt; a place to collaborate because at the time, we didn’t have a better alternative. Now that Siemens is hosting the community, my site has been relegated to a blog site and I’m ok with that.&lt;/p&gt;
@@ -137,9 +138,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/samples-for-solid-edge-on-codeplex" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/samples-for-solid-edge-on-codeplex</id>
+		<link href="https://jasonnewell.com/posts/2014/03/samples-for-solid-edge-on-codeplex" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2014/03/samples-for-solid-edge-on-codeplex</id>
 		<title>Samples for Solid Edge on CodePlex</title>
 		<updated>2014-03-04T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2014-03-04_1.png" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -161,9 +162,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/jasonnewellnet-community-update" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/jasonnewellnet-community-update</id>
+		<link href="https://jasonnewell.com/posts/2013/11/jasonnewellnet-community-update" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2013/11/jasonnewellnet-community-update</id>
 		<title>JasonNewell.NET - Community Update</title>
 		<updated>2013-11-27T00:00:00Z</updated>
 		<content>&lt;p&gt;As most of you know, I started JasonNewell.NET in 2005 in an effort expand and grow the Solid Edge developer community. At that time, we did not have a good medium to collaborate so I didn't mind hosting a website and forums. Almost immediately after I launched the site, I started getting pulled in many different directions and never really got the chance to give the community the attention that it needed or deserved. I did my best and for the most part am pleased with how far we've come together over the years.&lt;/p&gt;
@@ -180,9 +181,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/a-new-beginning" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/a-new-beginning</id>
+		<link href="https://jasonnewell.com/posts/2013/11/a-new-beginning-test" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2013/11/a-new-beginning-test</id>
 		<title>A new beginning</title>
 		<updated>2013-11-05T00:00:00Z</updated>
 		<content>&lt;p&gt;&lt;img src="http://blob.jasonnewell.net/blog/2013-11-05_1.jpg" class="img-fluid" alt=""&gt;&lt;/p&gt;
@@ -196,9 +197,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/jasonnewellnet-past-present-future-updated" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/jasonnewellnet-past-present-future-updated</id>
+		<link href="https://jasonnewell.com/posts/2012/11/jasonnewellnet-past-present-future-updated" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2012/11/jasonnewellnet-past-present-future-updated</id>
 		<title>JasonNewell.NET - Past, Present &amp; Future (Updated)</title>
 		<updated>2012-11-01T00:00:00Z</updated>
 		<content>&lt;p&gt;In my last blog post, &lt;a href="http://www.jasonnewell.com/post/jasonnewellnet-past-present-future"&gt;JasonNewell.NET - Past Present &amp;amp; Future&lt;/a&gt;, I outlined the direction that I was planning on taking with my company moving forward. Specifically, I planned to focus selling my products and terminating my consulting services. Needless to say, I didn't get too far down that road before I realized it was really, really bad idea.&lt;/p&gt;
@@ -209,9 +210,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/jasonnewellnet-past-present-future" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/jasonnewellnet-past-present-future</id>
+		<link href="https://jasonnewell.com/posts/2012/03/jasonnewellnet-past-present-future" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2012/03/jasonnewellnet-past-present-future</id>
 		<title>JasonNewell.NET - Past, Present &amp; Future</title>
 		<updated>2012-03-05T00:00:00Z</updated>
 		<content>&lt;p&gt;I wanted to take a moment and update everyone on the status of JasonNewell.NET. As you may or may not have noticed, I've been really quiet over the past several months. Over the last Christmas holidays, I spent quite a bit of time reflecting on where I've been, where I'm at and where I'm going with JasonNewell.NET. During that time, I made some decisions about the direction that I want to take moving forward and would like to share those thoughts with you now.&lt;/p&gt;
@@ -229,9 +230,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-university-2012-developer-day" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-university-2012-developer-day</id>
+		<link href="https://jasonnewell.com/posts/2012/02/solid-edge-university-2012-developer-day" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2012/02/solid-edge-university-2012-developer-day</id>
 		<title>Solid Edge University 2012 Developer Day</title>
 		<updated>2012-02-08T00:00:00Z</updated>
 		<content>&lt;p&gt;A couple of weeks ago, &lt;a href="http://blog.industrysoftware.automation.siemens.com/blog/2012/01/25/solid-edge-university-2012/"&gt;Siemens announced&lt;/a&gt; this year's Solid Edge conference. The conference is being called &lt;a href="http://www.solidedgeu.com/"&gt;Solid Edge University 2012&lt;/a&gt; and will be held in Nashville, Tennessee on June 11-13. Of particular interest to my followers is the fact that Siemens has added a &lt;a href="http://www.solidedgeu.com/schedule"&gt;Solid Edge Developer Day&lt;/a&gt; for this year's event. Mark Burhop also &lt;a href="http://blog.industrysoftware.automation.siemens.com/blog/2012/02/01/solid-edge-developer-day-survey/"&gt;announced&lt;/a&gt; a &lt;a href="http://www.zoomerang.com/Survey/WEB22EMW3EBTSP"&gt;Solid Edge Developer Day Survey&lt;/a&gt;. I have personally fought hard, on behalf of the development community, to get the developer day added back to the schedule. &lt;strong&gt;I strongly encourage all of the Solid Edge development community to participate in the survey&lt;/strong&gt; so that we can provide you with the information that you need in the format that you want. Also note that I will not be the only speaker this year but I do plan on making myself available to anyone who needs one-on-one attention.&lt;/p&gt;
@@ -243,9 +244,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-st4-released" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-st4-released</id>
+		<link href="https://jasonnewell.com/posts/2011/08/solid-edge-st4-released" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2011/08/solid-edge-st4-released</id>
 		<title>Solid Edge ST4 Released</title>
 		<updated>2011-08-11T00:00:00Z</updated>
 		<content>&lt;p&gt;Solid Edge ST4 has been released and is available to download from &lt;a href="http://ftp.ugs.com/download.php"&gt;Siemens PLM Software FTP Server&lt;/a&gt;.&amp;nbsp; Here are the &lt;a href="http://support.industrysoftware.automation.siemens.com/docs/se/st4/st4releasenotes.pdf"&gt;Solid Edge ST4 Release Notes&lt;/a&gt;.&lt;/p&gt;
@@ -253,9 +254,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/the-road-to-675-discovery-drive" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/the-road-to-675-discovery-drive</id>
+		<link href="https://jasonnewell.com/posts/2011/06/the-road-to-675-discovery-drive" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2011/06/the-road-to-675-discovery-drive</id>
 		<title>The road to 675 Discovery Drive</title>
 		<updated>2011-06-21T00:00:00Z</updated>
 		<content>&lt;p&gt;On the first day of the &lt;a href="https://www.seeuthere.com/rsvp/invitation/invitation.asp?id=/m1312dbb-43068LPQEN9MJ"&gt;Solid Edge ST4 Global Launch Event&lt;/a&gt;, a press release titled &lt;a href="http://www.plm.automation.siemens.com/en_us/about_us/newsroom/press/press_release.cfm?Component=124798&amp;amp;ComponentTemplate=822"&gt;Siemens PLM Aims for Solid Edge 'App Ecosystem'&lt;/a&gt; was announced.&amp;nbsp; Why am I so excited about this initiative you might ask?&amp;nbsp; This is exactly what I've wanted for years now!&amp;nbsp; Going back to my &lt;a href="http://blog.jasonnewell.net/2011/06/solid-edge-st4-launch-event-recap.html"&gt;'Siemens got it right'&lt;/a&gt; comment in a previous post, here is yet another example of Siemens moving in the right direction.&amp;nbsp; Over the years, I have been a very loud voice on this topic.&amp;nbsp; My contention is that part of Solid Edge's success depends on 3rd party development.&amp;nbsp; We need more people developing apps and integrations for Solid Edge.&amp;nbsp; What does this all mean for Solid Edge customers?&amp;nbsp; Before I answer that question, let me ask this.&amp;nbsp; How many times have you had conversations with other application vendors and asked if they had an integration with Solid Edge?&amp;nbsp; What was the answer you typically got?&amp;nbsp; How about trying to find useful 3rd party tools for Solid Edge or trying to find a quality Solid Edge programmer to do some customizations for you?&amp;nbsp; Now, imagine how nice it would be to get the answer that you wanted\needed to hear.&amp;nbsp; That's what this is about&lt;/p&gt;
@@ -267,9 +268,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/happy-fathers-day" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/happy-fathers-day</id>
+		<link href="https://jasonnewell.com/posts/2011/06/happy-fathers-day" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2011/06/happy-fathers-day</id>
 		<title>Happy Father's Day</title>
 		<updated>2011-06-19T00:00:00Z</updated>
 		<content>&lt;p&gt;First and foremost, I would like to say Happy Father's Day to all the dads out there.&amp;nbsp; I have been blessed with four wonderful children in my life and wouldn't take anything for any one of them.&amp;nbsp; Each one of them are different from the other in their own special ways.&amp;nbsp; Each one has distinct traits from myself and my wife.&amp;nbsp; They are my single greatest personal accomplishment in life.&amp;nbsp; I truly consider it a privilege and honor to call them my children.&lt;/p&gt;
@@ -284,9 +285,9 @@
 		<summary>Jason Newell</summary>
 	</entry>
 	<entry>
-		<link href="https://jasonnewell.com/posts/solid-edge-st4-launch-event-recap" />
-		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.png" />
-		<id>https://jasonnewell.com/posts/solid-edge-st4-launch-event-recap</id>
+		<link href="https://jasonnewell.com/posts/2011/06/solid-edge-st4-launch-event-recap" />
+		<link rel="enclosure" type="image" href="https://jasonnewell.com/images/background-1920x1080.jpg" />
+		<id>https://jasonnewell.com/posts/2011/06/solid-edge-st4-launch-event-recap</id>
 		<title>Solid Edge ST4 Launch Event - Recap</title>
 		<updated>2011-06-09T00:00:00Z</updated>
 		<content>&lt;p&gt;I have been writing this post in my head for about 3 days now and I feel no closer to knowing what to say than when I started.&amp;nbsp; It doesn't happen to me often but I am truly at a loss for words that can accurately and adequately communicate what I saw and felt at the Solid Edge ST4 Launch Event in Huntsville, AL.&amp;nbsp; I really don't know what else to say other than &lt;strong&gt;Siemens got it right&lt;/strong&gt;.&amp;nbsp; There will be plenty of technical blogs on the event so I'm choosing to cover the people side.&lt;/p&gt;

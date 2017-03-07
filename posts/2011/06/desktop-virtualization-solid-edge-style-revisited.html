@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+        <title>JasonNewell.NET - Desktop Virtualization, Solid Edge style (revisited)</title>
+        <meta name="description" content="Jason Newell" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+
+        <link type="application/rss+xml" rel="alternate" title="JasonNewell.NET" href="/feed.rss" />
+                <link type="application/atom+xml" rel="alternate" title="JasonNewell.NET" href="/feed.atom" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/css/highlight.css" rel="stylesheet">
+        <link href="/assets/css/clean-blog.css" rel="stylesheet" />
+        <link href="/assets/css/master.css" rel="stylesheet" />
+        <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/override.css" rel="stylesheet" />
+
+
+        <meta name="application-name" content="JasonNewell.NET" />
+        <meta name="msapplication-tooltip" content="JasonNewell.NET" />
+        <meta name="msapplication-starturl" content="/" />
+
+        <meta property="og:title" content="JasonNewell.NET - Desktop Virtualization, Solid Edge style (revisited)" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jasonnewell.com/posts/2011/06/desktop-virtualization-solid-edge-style-revisited" />
+        <!-- TODO: More social graph meta tags -->
+
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>     
+        <script src="/assets/js/highlight.pack.js"></script>   
+        <script src="/assets/js/clean-blog.js"></script>
+        <script src="/assets/js/d3.v3.min.js"></script>
+        <script src="/assets/js/trianglify.min.js"></script>
+        <script src="/assets/js/Please-compressed.js"></script>
+                
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+                <script src="/assets/js/html5shiv.js"></script>
+                <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+
+        
+        
+
+
+        </head>
+        <body>
+                
+                <!-- Navigation -->
+                <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                        <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header page-scroll">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="/">JasonNewell.NET</a>
+                                </div>
+                        
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                        <li><a href="/about">About Me</a></li>
+        <li><a href="/tags">All Tags</a></li>
+        <li><a href="/posts">Archive</a></li>
+ 
+                                        </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container -->
+                </nav>
+                
+                <!-- Page Header -->
+                <header class="intro-header" id="intro-header" style="background-image: url(&quot;/images/background-1920x1080.jpg&quot;)">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-12">
+
+    
+<div class="post-heading">
+    <h1>Desktop Virtualization, Solid Edge style (revisited)</h1>
+    <div class="meta">        
+Published on Monday, June 6, 2011<br>    </div>
+        <div class="tags">
+                    <a role="button" href="/tags/solid-edge" class="btn btn-default btn-xs">Solid Edge</a>
+        </div>     
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
+                
+                <!-- Main Content -->
+                <div class="container">
+                        <div class="row">
+                                <div id="content" class="col-md-12">
+                                        
+
+<p>This is a follow up to my original post Desktop Virtualization, Solid Edge style. It seems that I created more questions than I answered so I will try to address those questions here.</p>
+<p><strong>Host machine</strong></p>
+<p>Many wanted to know what setup I was running all of this on. Below are some screenshots showing some of the details.  Please keep in mind that these are not good specifications for a typical CAD machine but is adequate for the type of work that I do.</p>
+<ul>
+<li><a href="http://www.microsoft.com/windows/enterprise/products/windows-7/default.aspx">Windows 7 Enterprise</a> x64 Service Pack 1</li>
+<li><a href="http://www.evga.com/products/moreInfo.asp?pn=132-LF-E655-KR&amp;family=Motherboard%20Family&amp;series=Intel%20P55%20Series%20Family&amp;sw=5">EVGA® P55 SLI Motherboard</a></li>
+<li><a href="http://ark.intel.com/Product.aspx?id=48499">Intel® Core™ i7-875K Processor</a> (Overclocked to 4 GHz)</li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16820211409">ADATA XPG Gaming Series 4GB (2 x 2GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800)</a> (16GB Total)</li>
+<li><a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16814102857">SAPPHIRE 100282SR Radeon HD 5850 1GB 256-bit GDDR5 PCI Express 2.0 x16</a></li>
+<li>Western Digital Caviar Black WD1501FASS 1.5TB 7200 RPM SATA 3.0Gb/s 3.5&quot; Internal Hard Drive (OS and Data)</li>
+<li>Western Digital Caviar Black WD2001FASS 2TB 7200 RPM 64MB Cache SATA 3.0Gb/s 3.5&quot; Internal Hard Drive (Backups)</li>
+<li>SAMSUNG F1R RAID-Class HE103UJ 1TB 7200 RPM 32MB Cache SATA 3.0Gb/s 3.5&quot; Hard Drive (Virtual machines)</li>
+</ul>
+<p>This screenshot shows the details of my processor.  The Intel 875K has a clock speed of 2.93 GHz but can easily be overclocked to 4 GHz on air!  I have run this setup for a long time with no problems at all.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_1.png" class="img-fluid" alt="" title="Intel 875K overclocked to 4 GHz" /></p>
+<p>I am a programmer in the purest sense but I do have a background in hardware.  Still to this day, I get all gitty when I get all of the components in and start building.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_2.png" class="img-fluid" alt="" title="Custom built Intel 875K" /></p>
+<p>This screenshot shows my drive configuration.  I like to keep things separate for several reasons.  Performance is one, isolation is the other.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_3.png" class="img-fluid" alt="" title="Host machine drives" /></p>
+<p><strong>VMWare Workstation Snapshots and licensing</strong><br />
+There was confusion over this screenshot in the previous blog.  What you are actually seeing here is a <strong>single</strong> VM (instance) with snapshots.  After creating the virtual machine, I installed Windows, Windows updates and anything else that I wanted in the Baseline snapshot.  It is important to note that once a snapshot is taken, it is literally locked in time and cannot be directly modified.  You can branch off of a snapshot and create a new snapshot though.  Once I had the Baseline defined, I installed Solid Edge V16 and took another snapshot.  Service packs followed in the same manner.  When I was ready to install Solid Edge V17, I reverted back to the Baseline snapshot and installed from that point in time.  The process repeats for each version of Solid Edge.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_4.png" class="img-fluid" alt="" title="Single instance of Solid Edge VM with snapshots" /></p>
+<p>In this scenario, I need one license for Windows and one license for Solid Edge.  The Solid Edge license in use is node locked to the volume id of the virtual machines hard drive.  This is exactly the same as having a physical computer but with benefits.  Since Solid Edge licenses expire and snapshots are locked in time, you may have to update your selicense.dat (<a href="http://support.industrysoftware.automation.siemens.com/gtac.shtml">obtained from GTAC</a>) when reverting to an older snapshot.<br />
+This works well for someone like me who does development work or just wants to go back to a previous version of Solid Edge to test particular features.  This setup is great for what I'm using it for but depending on your needs, may not be the best approach.  For instance, if you're wanting to test hardware for Solid Edge, you would want a dedicated physical machine.<br />
+<strong>VMWare Workstation settings</strong><br />
+You have many options when configuring virtual machines.  The following screenshots shows how you can allocate hardware from your physical host to your virtual machine.  Regarding performance for Solid Edge in a virtual machine, I would say that it really depends on a lot of factors.  Host hardware is the most important.  You need a fast machine with a lot of capacity.  From there, Virtual machine settings dictate how much of the hosts hardware can be allocated to the virtual machine.  Past that, you really just need to try it for yourself and see if it's fast enough for your needs.  VMWare does offer a <a href="http://www.vmware.com/pdf/ws7_performance.pdf">guide on performance tuning</a>.  One thing I found interesting is that the Windows 7 <a href="http://windows.microsoft.com/en-US/windows-vista/What-is-the-Windows-Experience-Index">Windows Experience Index</a> for the primary hard disk of the virtual machine scored better than in my host!  Definitely a what the hell moment.  I can only assume that it has something to do with how VMWare implemented their virtual disk technology.</p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_5.png" class="img-fluid" alt="" title="VMWare Workstaion Settings - Memory" /></p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_6.png" class="img-fluid" alt="" title="VMWare Workstaion Settings - Processors" /></p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_7.png" class="img-fluid" alt="" title="VMWare Workstaion Settings - Disks" /></p>
+<p><img src="http://blob.jasonnewell.net/blog/2011-06-06_8.png" class="img-fluid" alt="" title="VMWare Workstaion Options - General" /></p>
+
+
+
+                                </div>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Footer -->
+                <footer>
+                        <div class="ui center aligned container">
+  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  
+  <div class="ui basic vertical segment">
+    <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
+  <i class="fa fa-twitter fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://github.com/jlnewell" title="GitHub">
+  <i class="fa fa-github fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://www.youtube.com/jasonnewelldotnet" title="YouTube">
+  <i class="fa fa-youtube fa-fw fa-2x"></i>
+</a>
+<a class="ui circular icon button" href="https://www.linkedin.com/in/jasonnewell" title="LinkedIn">
+  <i class="fa fa-linkedin fa-fw fa-2x"></i>
+</a>
+  </div>
+  
+  <p class="ui tiny basic vertical segment">
+    <a href="https://wyam.io">Statically generated by Wyam</a>
+  </p>
+</div>
+                </footer> 
+
+                
+                <script>hljs.initHighlightingOnLoad();</script>
+
+        </body>
+</html>
+
