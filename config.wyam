@@ -6,6 +6,6 @@ Settings[Keys.Host] = "jasonnewell.com";
 Settings[Keys.LinksUseHttps] = true;
 Settings[BlogKeys.Title] = "JasonNewell.NET";
 Settings[BlogKeys.Description] = "Jason Newell";
-Settings[BlogKeys.Intro] = "Hi, my name is Jason Newell. I am an Applications Architect for Ditch Witch and a Siemens PLM Solutions Partner.";
+Settings[BlogKeys.Intro] = "Hi, my name is Jason Newell. I'm an Applications Architect for Ditch Witch and a Siemens PLM Solutions Partner specializing in Solid Edge automation.";
 Settings[BlogKeys.Image] = "/images/background-1920x1080.jpg";
 Settings[BlogKeys.IncludeDateInPostPath] = true;
