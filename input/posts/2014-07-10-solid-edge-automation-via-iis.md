@@ -1,7 +1,5 @@
-
+---
 Title: Solid Edge Automation via IIS
-Published: 7/10/2014
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

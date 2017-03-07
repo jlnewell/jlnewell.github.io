@@ -1,6 +1,5 @@
+---
 Title: Desktop Virtualization, Solid Edge style (revisited)
-Published: 6/6/2011
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

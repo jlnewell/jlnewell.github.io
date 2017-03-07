@@ -1,6 +1,5 @@
+---
 Title: Samples for Solid Edge on CodePlex
-Published: 3/4/2014
-Image: /images/background-1920x1080.png
 Tags:
   - CodePlex
   - Open Source

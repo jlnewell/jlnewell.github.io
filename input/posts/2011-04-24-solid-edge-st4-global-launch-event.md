@@ -1,6 +1,5 @@
+---
 Title: Solid Edge ST4 Global Launch Event
-Published: 4/24/2011
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

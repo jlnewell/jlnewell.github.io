@@ -1,6 +1,5 @@
+---
 Title: Happy Father's Day
-Published: 6/19/2011
-Image: /images/background-1920x1080.png
 Tags:
   - General
 ---

@@ -1,6 +1,5 @@
+---
 Title: Solid Edge ST7 AddIn Architecture Overview
-Published: 11/10/2014
-Image: /images/background-1920x1080.png
 Tags:
   - CodeProject
   - GitHub

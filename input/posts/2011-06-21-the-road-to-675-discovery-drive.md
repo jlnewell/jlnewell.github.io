@@ -1,6 +1,5 @@
+---
 Title: The road to 675 Discovery Drive
-Published: 6/21/2011
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

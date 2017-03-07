@@ -1,6 +1,5 @@
+---
 Title: Why you can't miss the Solid Edge ST4 Launch Event
-Published: 4/27/2011
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

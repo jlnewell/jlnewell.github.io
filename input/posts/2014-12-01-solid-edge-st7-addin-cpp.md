@@ -1,6 +1,5 @@
+---
 Title: Solid Edge ST7 AddIn in C++
-Published: 12/1/2014
-Image: /images/background-1920x1080.png
 Tags:
   - CodeProject
   - GitHub

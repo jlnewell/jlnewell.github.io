@@ -1,6 +1,5 @@
+--
 Title: Solid Edge ST7 AddIn EdgeBar in C++
-Published: 12/14/2014
-Image: /images/background-1920x1080.png
 Tags:
   - CodeProject
   - GitHub

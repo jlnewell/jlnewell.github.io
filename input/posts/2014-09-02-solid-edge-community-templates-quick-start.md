@@ -1,6 +1,5 @@
+---
 Title: Solid Edge Community Templates Quick Start
-Published: 9/2/2014
-Image: /images/background-1920x1080.png
 Tags:
   - CodeProject
   - GitHub

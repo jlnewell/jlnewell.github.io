@@ -1,6 +1,5 @@
+---
 Title: Interview with Jason Newell, Solid Edge Developer Community Leader
-Published: 1/16/2015
-Image: /images/background-1920x1080.png
 Tags:
   - General
 ---

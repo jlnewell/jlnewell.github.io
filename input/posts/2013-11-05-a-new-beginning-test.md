@@ -1,6 +1,5 @@
+---
 Title: A new beginning
-Published: 11/5/2013
-Image: /images/background-1920x1080.png
 Tags:
   - General
 ---

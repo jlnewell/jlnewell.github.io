@@ -1,6 +1,5 @@
+---
 Title: Solid Edge ST4 Launch Event - Recap
-Published: 6/9/2011
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

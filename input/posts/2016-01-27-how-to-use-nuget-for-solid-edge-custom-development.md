@@ -1,7 +1,5 @@
+---
 Title: How to use NuGet for Solid Edge custom development
-Lead: How to use NuGet from Visual Studio for Solid Edge custom development.
-Published: 1/27/2015
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
   - NuGet

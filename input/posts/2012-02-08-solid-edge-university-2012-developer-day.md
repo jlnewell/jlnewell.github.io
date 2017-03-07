@@ -1,6 +1,5 @@
+---
 Title: Solid Edge University 2012 Developer Day
-Published: 2/8/2012
-Image: /images/background-1920x1080.png
 Tags:
   - Solid Edge
 ---

@@ -1,6 +1,5 @@
+---
 Title: JasonNewell.NET - Past, Present & Future (Updated)
-Published: 11/1/2012
-Image: /images/background-1920x1080.png
 Tags:
   - General
 ---

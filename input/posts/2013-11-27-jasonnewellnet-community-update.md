@@ -1,6 +1,5 @@
+---
 Title: JasonNewell.NET - Community Update
-Published: 11/27/2013
-Image: /images/background-1920x1080.png
 Tags:
   - General
 ---
