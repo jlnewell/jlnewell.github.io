@@ -12,12 +12,12 @@ JasonNewell.NET started from a gap that I saw in the Solid Edge programming comm
 
 Now that you know the background story, I'll get to the point of this post.  While I was in Huntsville, AL this week for the Solid Edge ST4 Global Launch Event, my family decided to "pimp" my office.  My wife and kids (even my two year old daughter) tricked out my office with a theme that only they and I would understand.  You see, I love dirt bikes and racing.  I used to race in a previous life.  I also drink a lot of Monster because it helps me stay awake for all the hours that I work.  The following pictures show their awesome work and truly great Father's Day gift to me.
 
-![](http://blob.jasonnewell.net/blog/2011-06-19_1.jpg "JasonNewell.NET Office pimped out")
+![](/posts/images/20110619-1.jpg "JasonNewell.NET Office pimped out")
 
-![](http://blob.jasonnewell.net/blog/2011-06-19_2.jpg "JasonNewell.NET Monster Fridge")
+![](/posts/images/20110619-2.jpg "JasonNewell.NET Monster Fridge")
 
 I should note that the picture hanging on the wall is of me when I was younger.  My dad took it while I was jumping a triple jump on my private track.
 
-![](http://blob.jasonnewell.net/blog/2011-06-19_3.jpg "JasonNewell.NET Office back view")
+![](/posts/images/20110619-3.jpg "JasonNewell.NET Office back view")
 
 Special thanks to my family.  I would be nothing without them.  God bless all of you dads out there!

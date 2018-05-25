@@ -11,16 +11,16 @@ The following video is the official introduction to the Solid Edge Community Ope
 
 The video is 23 minutes long but I strongly encourage you all to watch it in its entirety as there is a lot of good information in it. I also attached the PowerPoint presentation.
 
-<iframe width="560" height="420" src="http://www.youtube.com/embed/c91rrWo6F8k?color=white&theme=light"></iframe>
+<iframe width="560" height="420" src="https://www.youtube.com/embed/c91rrWo6F8k?color=white&theme=light"></iframe>
 
 Here are all of the relevant links:
 
 * [Solid Edge Community on GitHub](https://github.com/solidedgecommunity)
-* [Interop.SolidEdge (NuGet Package)](http://www.nuget.org/packages/Interop.SolidEdge)
-* [SolidEdge.Community (NuGet Package)](http://www.nuget.org/packages/SolidEdge.Community)
-* [SolidEdge.Community.Reader (NuGet Package)](http://www.nuget.org/packages/SolidEdge.Community.Reader)
+* [Interop.SolidEdge (NuGet Package)](https://www.nuget.org/packages/Interop.SolidEdge)
+* [SolidEdge.Community (NuGet Package)](https://www.nuget.org/packages/SolidEdge.Community)
+* [SolidEdge.Community.Reader (NuGet Package)](https://www.nuget.org/packages/SolidEdge.Community.Reader)
 * [Samples for Solid Edge on CodePlex](https://solidedgesamples.codeplex.com/)
 * [Spy for Solid Edge on CodePlex](https://solidedgespy.codeplex.com/)
-* [Solid Edge Community Templates](http://visualstudiogallery.msdn.microsoft.com/fd1878fc-6520-4eeb-95e5-1b8b27da875e)
+* [Solid Edge Community Templates](https://visualstudiogallery.msdn.microsoft.com/fd1878fc-6520-4eeb-95e5-1b8b27da875e)
 
-_Editor note: This post is also available on the [Solid Edge Developer Blog](http://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Blog/Solid-Edge-Community-Open-Source-Initiative/ba-p/268741)._
+_Editor note: This post is also available on the [Solid Edge Developer Blog](https://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Blog/Solid-Edge-Community-Open-Source-Initiative/ba-p/268741)._
