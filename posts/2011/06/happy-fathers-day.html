@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
         <head>
@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -72,9 +72,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse">
                                         <ul class="nav navbar-nav navbar-right">
-                                                        <li><a href="/about">About</a></li>
-        <li><a href="/tags">All Tags</a></li>
-        <li><a href="/posts">Archive</a></li>
+                                                        <li><a href="/posts">Archive</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
  
                                         </ul>
                                 </div>
@@ -95,6 +95,7 @@
     <div class="meta">        
 Published on Sunday, June 19, 2011<br>    </div>
         <div class="tags">
+                    <a role="button" href="/tags/General" class="btn btn-default btn-xs">General</a>
         </div>     
 </div>
                                         </div>
@@ -112,10 +113,10 @@ Published on Sunday, June 19, 2011<br>    </div>
 <p>Before having children, my wife and I both agreed that we wanted to do whatever necessary to allow her to stay home for our kids.  We had our first son in 2000 and second in 2002.  During that time, I was going back to school to get my MIS degree.  My wife essentially raised them by herself because between work and school, I was not available.  After I finished school and got my degree, I was working odd jobs to make extra money for the family.  I will never forget the day that I was mowing grass for one of the odd jobs.  It was hot, I was sweaty and had grass all over me.  I thought to myself, I'm better than this.  I just finished getting my MIS, I have an awesome day job and I have some rather unique programming skills.  Right at that moment, JasonNewell.NET was born.  That was 2005 and our third son was just born.</p>
 <p>JasonNewell.NET started from a gap that I saw in the Solid Edge programming community.  I knew that I could fill the gap and get my name our there at the same time.  In the beginning, I was working inside of our house.  Obviously with three small kids, it wasn't going to work.  Making my first business decision, my wife and I agreed that it made sense to build me an office.  Not having a ton of money at the time, we had to settle for a 10 x 16 shop in the back yard.  I partitioned 1/3 of the shop for an office then ran electricity and Internet to it.  I was all set.  My actual office dimensions are 5 x 9 but it is perfect for what I need.  It wasn't anything fancy but it did the job.  I have spent an unimaginable amount of hours in this office over the past six years.  This office is where anything and everything that JasonNewell.NET provides comes from.</p>
 <p>Now that you know the background story, I'll get to the point of this post.  While I was in Huntsville, AL this week for the Solid Edge ST4 Global Launch Event, my family decided to &quot;pimp&quot; my office.  My wife and kids (even my two year old daughter) tricked out my office with a theme that only they and I would understand.  You see, I love dirt bikes and racing.  I used to race in a previous life.  I also drink a lot of Monster because it helps me stay awake for all the hours that I work.  The following pictures show their awesome work and truly great Father's Day gift to me.</p>
-<p><img src="http://blob.jasonnewell.net/blog/2011-06-19_1.jpg" class="img-fluid" alt="" title="JasonNewell.NET Office pimped out" /></p>
-<p><img src="http://blob.jasonnewell.net/blog/2011-06-19_2.jpg" class="img-fluid" alt="" title="JasonNewell.NET Monster Fridge" /></p>
+<p><img src="/posts/images/20110619-1.jpg" class="img-fluid" alt="" title="JasonNewell.NET Office pimped out" /></p>
+<p><img src="/posts/images/20110619-2.jpg" class="img-fluid" alt="" title="JasonNewell.NET Monster Fridge" /></p>
 <p>I should note that the picture hanging on the wall is of me when I was younger.  My dad took it while I was jumping a triple jump on my private track.</p>
-<p><img src="http://blob.jasonnewell.net/blog/2011-06-19_3.jpg" class="img-fluid" alt="" title="JasonNewell.NET Office back view" /></p>
+<p><img src="/posts/images/20110619-3.jpg" class="img-fluid" alt="" title="JasonNewell.NET Office back view" /></p>
 <p>Special thanks to my family.  I would be nothing without them.  God bless all of you dads out there!</p>
 
 
@@ -129,7 +130,7 @@ Published on Sunday, June 19, 2011<br>    </div>
                 <!-- Footer -->
                 <footer>
                         <div class="ui center aligned container">
-  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  <p class="ui grey sub header">Copyright © Jason Newell 2018</p>
   
   <div class="ui basic vertical segment">
     <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
@@ -155,6 +156,13 @@ Published on Sunday, June 19, 2011<br>    </div>
                 
                 <script>hljs.initHighlightingOnLoad();</script>
 
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

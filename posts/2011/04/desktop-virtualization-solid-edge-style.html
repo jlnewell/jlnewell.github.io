@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
         <head>
@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -72,9 +72,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse">
                                         <ul class="nav navbar-nav navbar-right">
-                                                        <li><a href="/about">About</a></li>
-        <li><a href="/tags">All Tags</a></li>
-        <li><a href="/posts">Archive</a></li>
+                                                        <li><a href="/posts">Archive</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
  
                                         </ul>
                                 </div>
@@ -95,6 +95,7 @@
     <div class="meta">        
 Published on Saturday, April 23, 2011<br>    </div>
         <div class="tags">
+                    <a role="button" href="/tags/Solid-Edge" class="btn btn-default btn-xs">Solid Edge</a>
         </div>     
 </div>
                                         </div>
@@ -109,12 +110,12 @@ Published on Saturday, April 23, 2011<br>    </div>
                                         
 
 <p><strong>Let me start by asking a question or two.  How often have you wished that you could test a new release of Solid Edge or maintenance pack without risking your production machine?  How about after installing a maintenance pack, a particular function &quot;seems&quot; different but you can't quite remember how it worked in a previous release.  Typically it is not practical or cost effective to have a second machine sitting at your desk collecting dust until you need it for the previously mentioned scenarios.  What if there was a way to test ALL versions of Solid Edge and ALL maintenance packs without needing a second physical machine?</strong></p>
-<p>I don't typically bother putting time into recommending products very often but <a href="http://www.vmware.com/products/workstation/">VMWare Workstation</a> is absolutely fantastic.  Coming in at just $189, it is a no brainer for people like me who absolutely need to be able to run and test multiple versions of other software.</p>
+<p>I don't typically bother putting time into recommending products very often but <a href="https://www.vmware.com/products/workstation/">VMWare Workstation</a> is absolutely fantastic.  Coming in at just $189, it is a no brainer for people like me who absolutely need to be able to run and test multiple versions of other software.</p>
 <p>The single coolest and most useful feature is Snapshot Manager.  Snapshot Manager is what allows you to install, run and test multiple versions of basically any software.  In my case, I do consulting for a broad range of Solid Edge customers who run almost every version of Solid Edge imaginable.  I am also contracted by Siemens to develop the Solid Edge SDK Help each year for the upcoming release, ST4 in this case. As you can see in the screenshot below, I can easily transition between versions of Solid Edge with a simple click.</p>
-<p> <img src="http://blob.jasonnewell.net/blog/2011-04-23_1.png" class="img-fluid" alt="" title="VMWare Workstation Snapshot Manager" /></p>
+<p> <img src="/posts/images/20110423-1.png" class="img-fluid" alt="" title="VMWare Workstation Snapshot Manager" /></p>
 <p>Here is what it looks like to run Solid Edge inside of VMWare Workstation.  The left pane displays all of my configured virtual machines.  The tabs show the virtual machines that are running.  You can also enter into full-screen mode and work seamlessly as if it was your physical machine.</p>
-<p><img src="http://blob.jasonnewell.net/blog/2011-04-23_2.png" class="img-fluid" alt="" title="VMWare Workstation virtual machine running Solid Edge" /></p>
-<p>Don't be jeallous but don't you wish <img src="http://blob.jasonnewell.net/blog/2011-04-23_3.png" class="img-fluid" alt="" />.</p>
+<p><img src="/posts/images/20110423-2.png" class="img-fluid" alt="" title="VMWare Workstation virtual machine running Solid Edge" /></p>
+<p>Don't be jeallous but don't you wish <img src="/posts/images/20110423-3.png" class="img-fluid" alt="" />.</p>
 
 
 
@@ -127,7 +128,7 @@ Published on Saturday, April 23, 2011<br>    </div>
                 <!-- Footer -->
                 <footer>
                         <div class="ui center aligned container">
-  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  <p class="ui grey sub header">Copyright © Jason Newell 2018</p>
   
   <div class="ui basic vertical segment">
     <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
@@ -153,6 +154,13 @@ Published on Saturday, April 23, 2011<br>    </div>
                 
                 <script>hljs.initHighlightingOnLoad();</script>
 
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

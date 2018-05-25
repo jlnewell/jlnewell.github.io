@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
         <head>
@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -72,9 +72,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse">
                                         <ul class="nav navbar-nav navbar-right">
-                                                        <li><a href="/about">About</a></li>
-        <li><a href="/tags">All Tags</a></li>
-        <li><a href="/posts">Archive</a></li>
+                                                        <li><a href="/posts">Archive</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
  
                                         </ul>
                                 </div>
@@ -95,6 +95,9 @@
     <div class="meta">        
 Published on Tuesday, May 27, 2014<br>    </div>
         <div class="tags">
+                    <a role="button" href="/tags/General" class="btn btn-default btn-xs">General</a>
+                    <a role="button" href="/tags/GitHub" class="btn btn-default btn-xs">GitHub</a>
+                    <a role="button" href="/tags/Open-Source" class="btn btn-default btn-xs">Open Source</a>
         </div>     
 </div>
                                         </div>
@@ -108,9 +111,9 @@ Published on Tuesday, May 27, 2014<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p>Those who have followed me over the years likely notice that the site looks a bit different. I created this site in 2005 give the <a href="http://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Community/ct-p/SolidEdgeDeveloperCommunity">Solid Edge Developer Community</a> a place to collaborate because at the time, we didn’t have a better alternative. Now that Siemens is hosting the community, my site has been relegated to a blog site and I’m ok with that.</p>
-<p>There are a million blogging options out there but I want to explain why I chose the solution that I did. If you’ve ever spoken with me, you’ll know that I’m terrible at web programming. I’ve also recently hit the <a href="https://github.com">GitHub</a> scene in an effort to expand the <a href="https://github.com/SolidEdgeCommunity">Solid Edge Community open source initiative</a>. Recently, I read a <a href="http://www.hanselman.com/blog/ExploringASPNETWebPagesAFullyfeaturedMiniBlogUsingJustRazor.aspx">blog post</a> from one of my idols, <a href="http://www.hanselman.com">Scott Hanselman</a>. In that post, Scott mentioned <a href="http://madskristensen.net/">Mads Kristensen</a>’s <a href="https://github.com/madskristensen/miniblog">MiniBlog</a> project. I quickly realized this was a perfect opportunity for me to learn some modern ASP.NET and get my feet wet forking projects on GitHub.</p>
-<p>Needless to say, I’ve had a blast working with MiniBlog and learning ASP.NET\Razor by creating my own theme. My theme is still a work in progress as I learn. I am aware of a few issues but I’ll solve them as a I go. Special thanks to <a href="http://madskristensen.net/">Mads Kristensen</a> for creating and sharing <a href="https://github.com/madskristensen/miniblog">MiniBlog</a> and <a href="http://www.hanselman.com">Scott Hanselman</a> for bringing it to my attention.</p>
+<p>Those who have followed me over the years likely notice that the site looks a bit different. I created this site in 2005 give the <a href="https://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Community/ct-p/SolidEdgeDeveloperCommunity">Solid Edge Developer Community</a> a place to collaborate because at the time, we didn’t have a better alternative. Now that Siemens is hosting the community, my site has been relegated to a blog site and I’m ok with that.</p>
+<p>There are a million blogging options out there but I want to explain why I chose the solution that I did. If you’ve ever spoken with me, you’ll know that I’m terrible at web programming. I’ve also recently hit the <a href="https://github.com">GitHub</a> scene in an effort to expand the <a href="https://github.com/SolidEdgeCommunity">Solid Edge Community open source initiative</a>. Recently, I read a <a href="https://www.hanselman.com/blog/ExploringASPNETWebPagesAFullyfeaturedMiniBlogUsingJustRazor.aspx">blog post</a> from one of my idols, <a href="https://www.hanselman.com">Scott Hanselman</a>. In that post, Scott mentioned <a href="https://madskristensen.net/">Mads Kristensen</a>’s <a href="https://github.com/madskristensen/miniblog">MiniBlog</a> project. I quickly realized this was a perfect opportunity for me to learn some modern ASP.NET and get my feet wet forking projects on GitHub.</p>
+<p>Needless to say, I’ve had a blast working with MiniBlog and learning ASP.NET\Razor by creating my own theme. My theme is still a work in progress as I learn. I am aware of a few issues but I’ll solve them as a I go. Special thanks to <a href="https://madskristensen.net/">Mads Kristensen</a> for creating and sharing <a href="https://github.com/madskristensen/miniblog">MiniBlog</a> and <a href="https://www.hanselman.com">Scott Hanselman</a> for bringing it to my attention.</p>
 
 
 
@@ -123,7 +126,7 @@ Published on Tuesday, May 27, 2014<br>    </div>
                 <!-- Footer -->
                 <footer>
                         <div class="ui center aligned container">
-  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  <p class="ui grey sub header">Copyright © Jason Newell 2018</p>
   
   <div class="ui basic vertical segment">
     <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
@@ -149,6 +152,13 @@ Published on Tuesday, May 27, 2014<br>    </div>
                 
                 <script>hljs.initHighlightingOnLoad();</script>
 
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 

@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
         <head>
@@ -40,6 +40,7 @@
         <script src="/assets/js/d3.v3.min.js"></script>
         <script src="/assets/js/trianglify.min.js"></script>
         <script src="/assets/js/Please-compressed.js"></script>
+        <script src="/assets/js/background-check.min.js"></script>
                 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +48,6 @@
                 <script src="/assets/js/html5shiv.js"></script>
                 <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
-
         
         
 
@@ -72,9 +72,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="navbar-collapse">
                                         <ul class="nav navbar-nav navbar-right">
-                                                        <li><a href="/about">About</a></li>
-        <li><a href="/tags">All Tags</a></li>
-        <li><a href="/posts">Archive</a></li>
+                                                        <li><a href="/posts">Archive</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/about">About</a></li>
  
                                         </ul>
                                 </div>
@@ -95,6 +95,10 @@
     <div class="meta">        
 Published on Monday, June 23, 2014<br>    </div>
         <div class="tags">
+                    <a role="button" href="/tags/CodeProject" class="btn btn-default btn-xs">CodeProject</a>
+                    <a role="button" href="/tags/GitHub" class="btn btn-default btn-xs">GitHub</a>
+                    <a role="button" href="/tags/Open-Source" class="btn btn-default btn-xs">Open Source</a>
+                    <a role="button" href="/tags/Solid-Edge" class="btn btn-default btn-xs">Solid Edge</a>
         </div>     
 </div>
                                         </div>
@@ -108,12 +112,12 @@ Published on Monday, June 23, 2014<br>    </div>
                                 <div id="content" class="col-md-12">
                                         
 
-<p><img src="http://blob.jasonnewell.net/blog/2014-06-23_1.png" class="img-fluid" alt="" /></p>
-<p>One of the biggest challenges of automating Solid Edge (for me at least) is the sheer size of the API. SDK documentation and examples are nice but these are static views of the API. What would be extremely helpful is to have a runtime view of the API. This is where <a href="http://solidedgespy.codeplex.com/">Spy for Solid Edge</a> steps in. This is an <a href="http://github.com/SolidEdgeCommunity/SolidEdgeSpy">open source project on GitHub</a> made available by the <a href="http://github.com/SolidEdgeCommunity">Solid Edge Developer Community</a>.</p>
+<p><img src="/posts/images/20140623-1.png" class="img-fluid" alt="" /></p>
+<p>One of the biggest challenges of automating Solid Edge (for me at least) is the sheer size of the API. SDK documentation and examples are nice but these are static views of the API. What would be extremely helpful is to have a runtime view of the API. This is where <a href="https://solidedgespy.codeplex.com/">Spy for Solid Edge</a> steps in. This is an <a href="https://github.com/SolidEdgeCommunity/SolidEdgeSpy">open source project on GitHub</a> made available by the <a href="https://github.com/SolidEdgeCommunity">Solid Edge Developer Community</a>.</p>
 <p>I wrote and released the original application (formerly Solid Edge Spy) back in 2005 on my personal website. Open source was not as popular at the time and I chose to not share my code. Released at version 1.0, it had not been updated since until December 2013. At that time, our community was getting more involved in open source so I made the decision to share the rewritten code for all to see. Most won't care about the code itself, and that's ok, but for me it's the concept of contributing my work to the community and opening the door for others to contribute.</p>
 <p>The current release of Spy for Solid Edge has a lot of functionality, too much to really cover in a single blog post so I made a video demonstrating its functionality. I honestly tried to make it a short video but it ended up being 27 minutes long. I encourage you all to download and install the latest release and give it a test drive. I hope you all find it as incredibly useful as I have.</p>
-<iframe width="560" height="420" src="http://www.youtube.com/embed/Jx3NslNdmBA?color=white&theme=light"></iframe>
-<p><em>Editor note: This post is also available on the <a href="http://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Blog/Spy-for-Solid-Edge-Introduction/ba-p/35204">Solid Edge Developer Blog</a>.</em></p>
+<iframe width="560" height="420" src="https://www.youtube.com/embed/Jx3NslNdmBA?color=white&theme=light"></iframe>
+<p><em>Editor note: This post is also available on the <a href="https://community.plm.automation.siemens.com/t5/Solid-Edge-Developer-Blog/Spy-for-Solid-Edge-Introduction/ba-p/35204">Solid Edge Developer Blog</a>.</em></p>
 
 
 
@@ -126,7 +130,7 @@ Published on Monday, June 23, 2014<br>    </div>
                 <!-- Footer -->
                 <footer>
                         <div class="ui center aligned container">
-  <p class="ui grey sub header">Copyright © Jason Newell 2017</p>
+  <p class="ui grey sub header">Copyright © Jason Newell 2018</p>
   
   <div class="ui basic vertical segment">
     <a class="ui circular icon button" href="https://twitter.com/JasonNewellNET" title="Twitter">
@@ -152,6 +156,13 @@ Published on Monday, June 23, 2014<br>    </div>
                 
                 <script>hljs.initHighlightingOnLoad();</script>
 
+
+                <script>
+                        BackgroundCheck.init({
+                                targets: '.intro-header,.navbar',
+                                images: '.intro-header'
+                        });
+                </script>
         </body>
 </html>
 
